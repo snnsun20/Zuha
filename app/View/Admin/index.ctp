@@ -32,6 +32,7 @@ if (empty($runUpdates)) { ?>
         <li><?php echo $this->Html->link('Custom Forms', array('plugin' => 'forms', 'controller' => 'forms', 'action' => 'index')); ?></li>
         <li><?php echo $this->Html->link('Conditions', array('plugin' => null, 'controller' => 'conditions', 'action' => 'index')); ?></li>
         <li><?php echo $this->Html->link('Workflows', array('plugin' => 'workflows', 'controller' => 'workflows', 'action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link('Test Link', array('plugin' => 'workflows', 'controller' => '#', 'action' => '#')); ?></li> <!-- add new test link -->
       </ul>
       <ul>
         <li> <a href="#" title="Content"><span>Updates</span></a>
